@@ -7,12 +7,15 @@
     height: 60px;
     padding: 10px 25px;
     font-family: IBM Plex Mono;
-    background-color: blueviolet;
+    background-color: #ca7cbc;
 
 }
-.header img {
+.roblox {
     height: 100px;
 
+}
+.cem {
+    height: 70px;
 }
 body {
     margin: 0;
@@ -60,13 +63,15 @@ body {
     position: absolute;
     left: 0;
     top: 50px;
-    background-color: blueviolet;
+    background-color: rgb(202, 124, 188);
     width: 100px;
     padding: 10px;
     /* box-shadow: 23px 23px ; */
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     display: none;
+    box-shadow: 0 11px 34px -6px rgba(0,0,0,0.75);
+    
 
     
 
@@ -75,8 +80,41 @@ body {
     display: block;
 
 }
+.block {
+    padding: 100px;
+}
+.main {
+    font-family: IBM Plex Mono;
+}
+.reg {
+    font-size: 50px;
+    color: rgb(136, 72, 82);
 
-
-
-
+}
+.inp {
+    margin-bottom: 30px;
+    
+}
+#inp_name, #inp_surname, #inp_phone {
+    height: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    width: 100%;
+    background-color: #ca7cbc26;
+    color: hotpink;
+    border-radius: 3px;
+}
+button {
+    font-family: IBM Plex Mono;
+    border: none;
+    background-color: rgb(202, 124, 188);
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
